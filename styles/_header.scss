@@ -38,13 +38,17 @@
  }
 
  &__li1{
-    margin-right: 50px;
-
-   
+    margin-right: 50px; 
+    &:hover{
+        border: 1px solid black;
+    }
  }
 
  &__li{
     margin-right: 50px;
+    &:hover{
+        border: 1px solid black;
+    }
    
    
 }

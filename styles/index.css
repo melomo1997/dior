@@ -112,8 +112,14 @@
 .container__li1 {
   margin-right: 50px;
 }
+.container__li1:hover {
+  border: 1px solid black;
+}
 .container__li {
   margin-right: 50px;
+}
+.container__li:hover {
+  border: 1px solid black;
 }
 
 a {
