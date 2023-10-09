@@ -1,12 +1,14 @@
 .header{
     position: relative;
     width: 100%;
+    max-width: 1100px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
     padding: 0.25px;
     transition: 0.3s;
+    
 }
 .logo{
     color: #000;
@@ -25,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .menu{
@@ -101,63 +104,63 @@
 
 
 // containes ex
-.container{
- width: 80%;
- max-width: 1440px;
- min-height: 23px;
- display:flex ;
- justify-content: space-between;
- flex-direction: row;
- margin-top: 50px;
+// .container{
+//  width: 80%;
+//  max-width: 1440px;
+//  min-height: 23px;
+//  display:flex ;
+//  justify-content: space-between;
+//  flex-direction: row;
+//  margin-top: 50px;
 
- &__logo{
-    color: #000;
-    font-family: 'Raleway', sans-serif;
-    font-size: 34px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px; /* 150% */
-    letter-spacing: -0.25px;
-    margin-left: 50px;
-    letter-spacing: 5px;
+//  &__logo{
+//     color: #000;
+//     font-family: 'Raleway', sans-serif;
+//     font-size: 34px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 36px; /* 150% */
+//     letter-spacing: -0.25px;
+//     margin-left: 50px;
+//     letter-spacing: 5px;
    
- }
+//  }
 
- &__nav{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22.4px; /* 140% */
+//  &__nav{
+//     font-family: 'Raleway', sans-serif;
+//     font-size: 20px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 22.4px; /* 140% */
    
 
 
- }
+//  }
 
- &__ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+//  &__ul{
+//     display: flex;
+//     flex-direction: row;
+//     list-style: none;
     
- }
+//  }
 
- &__li1{
-    margin-right: 50px; 
-    &:hover{
-        border: 1px solid rgb(234, 109, 188);
-        background-color: pink;
-    }
- }
+//  &__li1{
+//     margin-right: 50px; 
+//     &:hover{
+//         border: 1px solid rgb(234, 109, 188);
+//         background-color: pink;
+//     }
+//  }
 
- &__li{
-    margin-right: 50px;
-    &:hover{
-        border: 1px solid rgb(234, 109, 188);
-        background-color: pink;
-    }
+//  &__li{
+//     margin-right: 50px;
+//     &:hover{
+//         border: 1px solid rgb(234, 109, 188);
+//         background-color: pink;
+//     }
    
    
-}
+// }
 }
 a{
     text-decoration: none;
